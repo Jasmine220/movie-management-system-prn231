@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "EFUiGe1CTLlxerzZ7vBQecy1pSNpRJEIOBiZLvUh1lG7YOZFHplwIAaATIDY6Qe67jHeTjn/FGnePZWs+BX0gQ==",
+  "success": true,
+  "projectFilePath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dangd\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\dangd\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dangd\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\dangd\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\dangd\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\dangd\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
