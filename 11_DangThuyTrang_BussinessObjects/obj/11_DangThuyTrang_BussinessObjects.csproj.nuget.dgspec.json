@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {}
+    "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {}
   },
   "projects": {
-    "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
+    "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj",
+        "projectUniqueName": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj",
         "projectName": "11_DangThuyTrang_BussinessObjects",
-        "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj",
-        "packagesPath": "C:\\Users\\dangd\\.nuget\\packages\\",
-        "outputPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\obj\\",
+        "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dangd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
