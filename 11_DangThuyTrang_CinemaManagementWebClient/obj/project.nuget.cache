@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EFUiGe1CTLlxerzZ7vBQecy1pSNpRJEIOBiZLvUh1lG7YOZFHplwIAaATIDY6Qe67jHeTjn/FGnePZWs+BX0gQ==",
+  "dgSpecHash": "6HjcJ5KJ4P0mP+pp/Y+WbJDQ+QVttaB0mc2Zi9096mpf8/pzrJdtgEkqU1U+cZICOSUiEs3+1AhiBUv5phkXZA==",
   "success": true,
-  "projectFilePath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj",
+  "projectFilePath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dangd\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\dangd\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

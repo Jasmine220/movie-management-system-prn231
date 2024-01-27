@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
+      "projectUniqueName": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
       "projectName": "11_DangThuyTrang_CinemaManagementAPI",
-      "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
+      "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
       "packagesPath": "C:\\Users\\dangd\\.nuget\\packages\\",
-      "outputPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementAPI\\obj\\",
+      "outputPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dangd\\AppData\\Roaming\\NuGet\\NuGet.Config",

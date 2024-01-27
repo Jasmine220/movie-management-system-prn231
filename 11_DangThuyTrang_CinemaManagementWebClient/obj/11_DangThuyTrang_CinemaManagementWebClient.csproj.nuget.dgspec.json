@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj": {}
+    "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj": {}
   },
   "projects": {
-    "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj": {
+    "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj",
+        "projectUniqueName": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj",
         "projectName": "11_DangThuyTrang_CinemaManagementWebClient",
-        "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj",
+        "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementWebClient\\11_DangThuyTrang_CinemaManagementWebClient.csproj",
         "packagesPath": "C:\\Users\\dangd\\.nuget\\packages\\",
-        "outputPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\11_DangThuyTrang_CinemaManagement\\11_DangThuyTrang_CinemaManagementWebClient\\obj\\",
+        "outputPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementWebClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dangd\\AppData\\Roaming\\NuGet\\NuGet.Config",
