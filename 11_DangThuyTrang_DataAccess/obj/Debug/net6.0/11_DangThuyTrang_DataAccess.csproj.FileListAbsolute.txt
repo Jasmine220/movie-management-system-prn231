@@ -1,0 +1,15 @@
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\bin\Debug\net6.0\11_DangThuyTrang_DataAccess.deps.json
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\bin\Debug\net6.0\11_DangThuyTrang_DataAccess.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\bin\Debug\net6.0\11_DangThuyTrang_DataAccess.pdb
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.pdb
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.csproj.AssemblyReference.cache
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.AssemblyInfoInputs.cache
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.AssemblyInfo.cs
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.csproj.CoreCompileInputs.cache
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.csproj.CopyComplete
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\refint\11_DangThuyTrang_DataAccess.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\11_DangThuyTrang_DataAccess.pdb
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_DataAccess\obj\Debug\net6.0\ref\11_DangThuyTrang_DataAccess.dll

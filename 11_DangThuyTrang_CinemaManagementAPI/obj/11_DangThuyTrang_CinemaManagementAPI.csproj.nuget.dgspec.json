@@ -4,6 +4,81 @@
     "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj": {}
   },
   "projects": {
+    "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj",
+        "projectName": "11_DangThuyTrang_BussinessObjects",
+        "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +102,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
+                "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj"
+              },
+              "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj": {
+                "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj"
+              },
+              "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj": {
+                "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +145,127 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj",
+        "projectName": "11_DangThuyTrang_DataAccess",
+        "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
+                "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj",
+        "projectName": "11_DangThuyTrang_Repositories",
+        "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
+                "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj"
+              },
+              "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj": {
+                "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

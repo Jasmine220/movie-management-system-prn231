@@ -1,0 +1,17 @@
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\bin\Debug\net6.0\11_DangThuyTrang_Repositories.deps.json
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\bin\Debug\net6.0\11_DangThuyTrang_Repositories.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\bin\Debug\net6.0\11_DangThuyTrang_Repositories.pdb
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\bin\Debug\net6.0\11_DangThuyTrang_DataAccess.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.pdb
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\bin\Debug\net6.0\11_DangThuyTrang_DataAccess.pdb
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.csproj.AssemblyReference.cache
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.AssemblyInfoInputs.cache
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.AssemblyInfo.cs
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.csproj.CoreCompileInputs.cache
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.csproj.CopyComplete
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\refint\11_DangThuyTrang_Repositories.dll
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\11_DangThuyTrang_Repositories.pdb
+D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_Repositories\obj\Debug\net6.0\ref\11_DangThuyTrang_Repositories.dll
