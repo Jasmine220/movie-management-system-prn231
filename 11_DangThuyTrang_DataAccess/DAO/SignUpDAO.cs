@@ -47,8 +47,7 @@ namespace _11_DangThuyTrang_DataAccess.DAO
                         Phone = phone,
                         Email = email,
                         Address = address,
-                        RoleId = defaultRoleId,
-                        Role = defaultRole // Gán vai trò cho người dùng
+                        RoleId = defaultRoleId
                     };
 
                     context.Users.Add(newUser);
