@@ -48,9 +48,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Account");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Password)
                     .HasMaxLength(150)
@@ -383,7 +381,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
                 entity.ToTable("User");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("id");
 
                 entity.Property(e => e.Address)

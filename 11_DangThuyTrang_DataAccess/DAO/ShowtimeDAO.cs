@@ -27,7 +27,6 @@ namespace _11_DangThuyTrang_DataAccess.DAO
             }
             catch (Exception ex)
             {
-                // Xử lý ngoại lệ (log, thông báo, hoặc ném lại ngoại lệ tùy thuộc vào yêu cầu của bạn)
                 throw new ApplicationException("Error getting show times by date.", ex);
             }
             return showTimes;

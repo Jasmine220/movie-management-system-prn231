@@ -15,3 +15,11 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_CinemaManagementWebClient
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/Github/11_NguyenThanhLong_CineManagement/movie-management-system-prn231/11_DangThuyTrang_CinemaManagementWebClient/Views/SignUp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/11_NguyenThanhLong_CineManagement/movie-management-system-prn231/11_DangThuyTrang_CinemaManagementWebClient/Views/SignUp/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

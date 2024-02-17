@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DangThuyTrang_CinemaManagementWebClient", "11_DangThuyTrang_CinemaManagementWebClient\11_DangThuyTrang_CinemaManagementWebClient.csproj", "{76657677-1C5A-4E8B-A9AE-20BEA5938D50}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DangThuyTrang_CinemaManagementAPI", "11_DangThuyTrang_CinemaManagementAPI\11_DangThuyTrang_CinemaManagementAPI.csproj", "{24CDFEB1-039D-4C08-B82E-4ABA50B63D39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DangThuyTrang_BussinessObjects", "11_DangThuyTrang_BussinessObjects\11_DangThuyTrang_BussinessObjects.csproj", "{9CC778E6-6391-49B1-BF96-4D3C1D2150C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DangThuyTrang_BussinessObjects", "11_DangThuyTrang_BussinessObjects\11_DangThuyTrang_BussinessObjects.csproj", "{9CC778E6-6391-49B1-BF96-4D3C1D2150C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DangThuyTrang_DataAccess", "11_DangThuyTrang_DataAccess\11_DangThuyTrang_DataAccess.csproj", "{181B1E0E-E35E-40AB-ABB4-45C2340E468F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DangThuyTrang_DataAccess", "11_DangThuyTrang_DataAccess\11_DangThuyTrang_DataAccess.csproj", "{181B1E0E-E35E-40AB-ABB4-45C2340E468F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DangThuyTrang_Repositories", "11_DangThuyTrang_Repositories\11_DangThuyTrang_Repositories.csproj", "{B9604267-8710-4B10-80D8-BBAF227A766D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DangThuyTrang_Repositories", "11_DangThuyTrang_Repositories\11_DangThuyTrang_Repositories.csproj", "{B9604267-8710-4B10-80D8-BBAF227A766D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DangThuyTrang_CinemaManagementClient", "11_DangThuyTrang_CinemaManagementClient\11_DangThuyTrang_CinemaManagementClient.csproj", "{A8929467-F851-4AB5-BB29-6C5825C7695D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76657677-1C5A-4E8B-A9AE-20BEA5938D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76657677-1C5A-4E8B-A9AE-20BEA5938D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76657677-1C5A-4E8B-A9AE-20BEA5938D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76657677-1C5A-4E8B-A9AE-20BEA5938D50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{24CDFEB1-039D-4C08-B82E-4ABA50B63D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24CDFEB1-039D-4C08-B82E-4ABA50B63D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24CDFEB1-039D-4C08-B82E-4ABA50B63D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{B9604267-8710-4B10-80D8-BBAF227A766D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9604267-8710-4B10-80D8-BBAF227A766D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9604267-8710-4B10-80D8-BBAF227A766D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8929467-F851-4AB5-BB29-6C5825C7695D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8929467-F851-4AB5-BB29-6C5825C7695D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8929467-F851-4AB5-BB29-6C5825C7695D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8929467-F851-4AB5-BB29-6C5825C7695D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

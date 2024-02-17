@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\11_DangThuyTrang_CinemaManagementClient.props" />
+</Project>
