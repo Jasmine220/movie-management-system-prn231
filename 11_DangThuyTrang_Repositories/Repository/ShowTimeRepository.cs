@@ -12,5 +12,6 @@ namespace _11_DangThuyTrang_Repositories.Repository
     public class ShowTimeRepository : IShowTimeRepository
     {
         public List<ShowTime> GetShowTimesByDate(DateTime date) => ShowtimeDAO.GetShowTimesByDate(date);
-    }
+        public ShowTime GetShowTimeById(int id) => ShowtimeDAO.GetShowTimeById(id);
+	}
 }

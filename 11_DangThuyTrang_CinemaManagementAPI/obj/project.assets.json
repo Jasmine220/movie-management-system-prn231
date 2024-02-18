@@ -2869,19 +2869,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\dangd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
+      "projectUniqueName": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
       "projectName": "11_DangThuyTrang_CinemaManagementAPI",
-      "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\obj\\",
+      "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\11_DangThuyTrang_CinemaManagementAPI.csproj",
+      "packagesPath": "C:\\Users\\dangd\\.nuget\\packages\\",
+      "outputPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_CinemaManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dangd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2895,14 +2895,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
-              "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj"
+            "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj": {
+              "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_BussinessObjects\\11_DangThuyTrang_BussinessObjects.csproj"
             },
-            "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj": {
-              "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj"
+            "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj": {
+              "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_DataAccess\\11_DangThuyTrang_DataAccess.csproj"
             },
-            "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj": {
-              "projectPath": "D:\\Github\\11_NguyenThanhLong_CineManagement\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj"
+            "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj": {
+              "projectPath": "D:\\SEMESTERS_FPTU\\SU24\\Project\\movie-management-system-prn231\\11_DangThuyTrang_Repositories\\11_DangThuyTrang_Repositories.csproj"
             }
           }
         }
@@ -2941,7 +2941,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

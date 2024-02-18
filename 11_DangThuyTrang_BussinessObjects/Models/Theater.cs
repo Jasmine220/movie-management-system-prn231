@@ -5,12 +5,16 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
 {
     public partial class Theater
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Hotline { get; set; }
-        public string Address { get; set; }
-        public int? ShowroomId { get; set; }
+        public Theater()
+        {
+            ShowRooms = new HashSet<ShowRoom>();
+        }
 
-        public virtual ShowRoom Showroom { get; set; }
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public string? Hotline { get; set; }
+        public string? Address { get; set; }
+
+        public virtual ICollection<ShowRoom> ShowRooms { get; set; }
     }
 }

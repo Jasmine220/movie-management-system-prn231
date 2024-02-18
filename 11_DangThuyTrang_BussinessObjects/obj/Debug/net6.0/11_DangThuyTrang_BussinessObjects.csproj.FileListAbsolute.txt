@@ -12,3 +12,17 @@ D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_Da
 D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.pdb
 D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.genruntimeconfig.cache
 D:\Github\11_NguyenThanhLong_CineManagement\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\ref\11_DangThuyTrang_BussinessObjects.dll
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.deps.json
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.runtimeconfig.json
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.dll
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\bin\Debug\net6.0\11_DangThuyTrang_BussinessObjects.pdb
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.csproj.AssemblyReference.cache
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.AssemblyInfoInputs.cache
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.AssemblyInfo.cs
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.csproj.CoreCompileInputs.cache
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.dll
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\refint\11_DangThuyTrang_BussinessObjects.dll
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.pdb
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\11_DangThuyTrang_BussinessObjects.genruntimeconfig.cache
+D:\SEMESTERS_FPTU\SU24\Project\movie-management-system-prn231\11_DangThuyTrang_BussinessObjects\obj\Debug\net6.0\ref\11_DangThuyTrang_BussinessObjects.dll

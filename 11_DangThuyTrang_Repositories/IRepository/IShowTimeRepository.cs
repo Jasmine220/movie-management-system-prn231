@@ -10,5 +10,6 @@ namespace _11_DangThuyTrang_Repositories.IRepository
     public interface IShowTimeRepository
     {
         List<ShowTime> GetShowTimesByDate(DateTime date);
-    }
+        ShowTime GetShowTimeById(int id);
+	}
 }

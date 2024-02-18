@@ -31,5 +31,26 @@ namespace _11_DangThuyTrang_DataAccess.DAO
             }
             return showTimes;
         }
-    }
+
+		public static ShowTime GetShowTimeById(int id)
+		{
+			ShowTime? showTime = null;
+			try
+			{
+				using (var context = new _11_DangThuyTrang_CinemaManagementContext())
+				{
+					showTime = context.ShowTimes
+					.Include(st => st.Movie)
+					.Include(st => st.Showroom)
+					.FirstOrDefault(s => s.Id == id);
+				}
+
+			}
+			catch (Exception ex)
+			{
+				throw new ApplicationException("Error getting show time by id.", ex);
+			}
+			return showTime;
+		}
+	}
 }

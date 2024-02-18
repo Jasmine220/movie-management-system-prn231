@@ -47,7 +47,7 @@ namespace _11_DangThuyTrang_DataAccess.DAO
                         Phone = phone,
                         Email = email,
                         Address = address,
-                        RoleId = defaultRoleId
+                        //RoleId = defaultRoleId
                     };
 
                     context.Users.Add(newUser);

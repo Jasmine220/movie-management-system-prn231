@@ -25,5 +25,19 @@ namespace _11_DangThuyTrang_CinemaManagementAPI.Controllers
                 return StatusCode(500, $"Internal Server Error: {ex.Message}");
             }
         }
-    }
+
+		[HttpGet("{id}")]
+		public IActionResult GetShowTimeById(int id)
+		{
+			try
+			{
+				var showTime = repository.GetShowTimeById(id);
+				return Ok(showTime);
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(500, $"Internal Server Error: {ex.Message}");
+			}
+		}
+	}
 }
