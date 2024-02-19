@@ -7,7 +7,5 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-
-        public virtual User IdNavigation { get; set; }
     }
 }

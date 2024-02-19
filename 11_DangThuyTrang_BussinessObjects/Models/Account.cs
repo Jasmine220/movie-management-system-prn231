@@ -9,6 +9,6 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
         public string Username { get; set; }
         public string Password { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual User IdNavigation { get; set; }
     }
 }

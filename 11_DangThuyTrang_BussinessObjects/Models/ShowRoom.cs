@@ -7,9 +7,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
     {
         public ShowRoom()
         {
-            Seats = new HashSet<Seat>();
             ShowTimes = new HashSet<ShowTime>();
-            Theaters = new HashSet<Theater>();
         }
 
         public int Id { get; set; }
@@ -18,9 +16,9 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
         public string Type { get; set; }
         public bool? Status { get; set; }
         public string Image { get; set; }
+        public int? TheaterId { get; set; }
 
-        public virtual ICollection<Seat> Seats { get; set; }
+        public virtual Theater Theater { get; set; }
         public virtual ICollection<ShowTime> ShowTimes { get; set; }
-        public virtual ICollection<Theater> Theaters { get; set; }
     }
 }

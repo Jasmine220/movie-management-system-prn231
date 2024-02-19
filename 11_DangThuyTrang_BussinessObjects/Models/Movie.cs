@@ -17,7 +17,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
         public int? Length { get; set; }
         public string Language { get; set; }
         public DateTime? PurchaseTime { get; set; }
-        public int? Rating { get; set; }
+        public string Rated { get; set; }
         public string Image { get; set; }
         public int? GenreId { get; set; }
 

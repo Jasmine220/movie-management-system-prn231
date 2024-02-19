@@ -28,10 +28,12 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
         public virtual DbSet<RoleFeature> RoleFeatures { get; set; }
         public virtual DbSet<Seat> Seats { get; set; }
         public virtual DbSet<ShowRoom> ShowRooms { get; set; }
+        public virtual DbSet<ShowRoomSeat> ShowRoomSeats { get; set; }
         public virtual DbSet<ShowTime> ShowTimes { get; set; }
         public virtual DbSet<Theater> Theaters { get; set; }
         public virtual DbSet<Ticket> Tickets { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<UserRole> UserRoles { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -48,7 +50,9 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Account");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .ValueGeneratedOnAdd()
+                    .HasColumnName("id");
 
                 entity.Property(e => e.Password)
                     .HasMaxLength(150)
@@ -57,15 +61,19 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
                 entity.Property(e => e.Username)
                     .HasMaxLength(150)
                     .HasColumnName("username");
+
+                entity.HasOne(d => d.IdNavigation)
+                    .WithOne(p => p.Account)
+                    .HasForeignKey<Account>(d => d.Id)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Account_User");
             });
 
             modelBuilder.Entity<Cast>(entity =>
             {
                 entity.ToTable("Cast");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(150)
@@ -76,9 +84,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Feature");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(150)
@@ -93,9 +99,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Genre");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(150)
@@ -106,12 +110,10 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Movie");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Description)
-                    .HasMaxLength(300)
+                    .HasMaxLength(1000)
                     .HasColumnName("description");
 
                 entity.Property(e => e.Director)
@@ -132,7 +134,9 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
                     .HasColumnType("datetime")
                     .HasColumnName("purchase_time");
 
-                entity.Property(e => e.Rating).HasColumnName("rating");
+                entity.Property(e => e.Rated)
+                    .HasMaxLength(150)
+                    .HasColumnName("rated");
 
                 entity.Property(e => e.Title)
                     .HasMaxLength(150)
@@ -169,9 +173,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("PaymentMethod");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(150)
@@ -182,19 +184,11 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Role");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(150)
                     .HasColumnName("name");
-
-                entity.HasOne(d => d.IdNavigation)
-                    .WithOne(p => p.Role)
-                    .HasForeignKey<Role>(d => d.Id)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Role_User");
             });
 
             modelBuilder.Entity<RoleFeature>(entity =>
@@ -222,35 +216,18 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Seat");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(150)
                     .HasColumnName("name");
-
-                entity.Property(e => e.ShowroomId).HasColumnName("showroom_id");
-
-                entity.Property(e => e.Status).HasColumnName("status");
-
-                entity.Property(e => e.Type)
-                    .HasMaxLength(150)
-                    .HasColumnName("type");
-
-                entity.HasOne(d => d.Showroom)
-                    .WithMany(p => p.Seats)
-                    .HasForeignKey(d => d.ShowroomId)
-                    .HasConstraintName("FK_Seat_ShowRoom");
             });
 
             modelBuilder.Entity<ShowRoom>(entity =>
             {
                 entity.ToTable("ShowRoom");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Image).HasColumnName("image");
 
@@ -262,33 +239,61 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
 
                 entity.Property(e => e.Status).HasColumnName("status");
 
+                entity.Property(e => e.TheaterId).HasColumnName("theater_id");
+
                 entity.Property(e => e.Type)
                     .HasMaxLength(150)
                     .HasColumnName("type");
+
+                entity.HasOne(d => d.Theater)
+                    .WithMany(p => p.ShowRooms)
+                    .HasForeignKey(d => d.TheaterId)
+                    .HasConstraintName("FK_ShowRoom_Theater");
+            });
+
+            modelBuilder.Entity<ShowRoomSeat>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("ShowRoomSeat");
+
+                entity.Property(e => e.SeatId).HasColumnName("seat_id");
+
+                entity.Property(e => e.ShowroomId).HasColumnName("showroom_id");
+
+                entity.Property(e => e.Status).HasColumnName("status");
+
+                entity.Property(e => e.Type)
+                    .HasMaxLength(150)
+                    .HasColumnName("type");
+
+                entity.HasOne(d => d.Seat)
+                    .WithMany()
+                    .HasForeignKey(d => d.SeatId)
+                    .HasConstraintName("FK_ShowRoomSeat_Seat");
+
+                entity.HasOne(d => d.Showroom)
+                    .WithMany()
+                    .HasForeignKey(d => d.ShowroomId)
+                    .HasConstraintName("FK_ShowRoomSeat_ShowRoom");
             });
 
             modelBuilder.Entity<ShowTime>(entity =>
             {
                 entity.ToTable("ShowTime");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Date)
                     .HasColumnType("date")
                     .HasColumnName("date");
-
-                entity.Property(e => e.EndTime)
-                    .HasColumnType("datetime")
-                    .HasColumnName("end_time");
 
                 entity.Property(e => e.MovieId).HasColumnName("movie_id");
 
                 entity.Property(e => e.ShowroomId).HasColumnName("showroom_id");
 
                 entity.Property(e => e.StartTime)
-                    .HasColumnType("datetime")
+                    .HasMaxLength(150)
                     .HasColumnName("start_time");
 
                 entity.HasOne(d => d.Movie)
@@ -308,9 +313,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
             {
                 entity.ToTable("Theater");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Address)
                     .HasMaxLength(150)
@@ -323,13 +326,6 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
                 entity.Property(e => e.Name)
                     .HasMaxLength(150)
                     .HasColumnName("name");
-
-                entity.Property(e => e.ShowroomId).HasColumnName("showroom_id");
-
-                entity.HasOne(d => d.Showroom)
-                    .WithMany(p => p.Theaters)
-                    .HasForeignKey(d => d.ShowroomId)
-                    .HasConstraintName("FK_Theater_ShowRoom");
             });
 
             modelBuilder.Entity<Ticket>(entity =>
@@ -337,7 +333,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
                 entity.ToTable("Ticket");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
+                    .ValueGeneratedOnAdd()
                     .HasColumnName("id");
 
                 entity.Property(e => e.CreatedTime)
@@ -381,7 +377,7 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
                 entity.ToTable("User");
 
                 entity.Property(e => e.Id)
-                    .ValueGeneratedOnAdd()
+                    .ValueGeneratedNever()
                     .HasColumnName("id");
 
                 entity.Property(e => e.Address)
@@ -396,15 +392,28 @@ namespace _11_DangThuyTrang_BussinessObjects.Models
                     .HasMaxLength(150)
                     .HasColumnName("phone");
 
+                entity.Property(e => e.Status).HasColumnName("status");
+            });
+
+            modelBuilder.Entity<UserRole>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("UserRole");
+
                 entity.Property(e => e.RoleId).HasColumnName("role_id");
 
-                entity.Property(e => e.Status).HasColumnName("status");
+                entity.Property(e => e.UserId).HasColumnName("user_id");
 
-                entity.HasOne(d => d.IdNavigation)
-                    .WithOne(p => p.User)
-                    .HasForeignKey<User>(d => d.Id)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_User_Account");
+                entity.HasOne(d => d.Role)
+                    .WithMany()
+                    .HasForeignKey(d => d.RoleId)
+                    .HasConstraintName("FK_UserRole_Role");
+
+                entity.HasOne(d => d.User)
+                    .WithMany()
+                    .HasForeignKey(d => d.UserId)
+                    .HasConstraintName("FK_UserRole_User");
             });
 
             OnModelCreatingPartial(modelBuilder);

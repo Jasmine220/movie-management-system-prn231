@@ -18,12 +18,14 @@ namespace _11_DangThuyTrang_DataAccess.DAO
                 using (var context = new _11_DangThuyTrang_CinemaManagementContext())
                 {
                     showTimes = context.ShowTimes
-                    .Include(st => st.Movie)
-                    .Include(st => st.Showroom)
-                    .Where(st => EF.Functions.DateDiffDay(st.Date, date) == 0)
-                    .ToList();
+       .Include(st => st.Movie)
+       .Include(st => st.Showroom)
+       .Where(st => EF.Functions.DateDiffDay(st.Date, date) == 0)
+       .ToList();
+
+
                 }
-           
+
             }
             catch (Exception ex)
             {
